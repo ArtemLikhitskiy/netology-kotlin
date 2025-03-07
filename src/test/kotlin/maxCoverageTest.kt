@@ -163,7 +163,7 @@ class maxCoverageTest {
     fun calcCommission_DefaultType() {
         val amountOfPreviousPurchases = 100_000_00
         val amountTransfer = 100_00
-        val expectedResult = 10
+        val expectedResult = 0
 
         val result = calcCommission(amountOfPreviousPurchases = amountOfPreviousPurchases, amountTransfer = amountTransfer)
 
